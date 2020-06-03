@@ -44,7 +44,7 @@ contract ContactBookDAPP is owned{
     }
 
     //记录所有数据映射
-    mapping (uint => Comminfo) commOf;
+    mapping (uint => Comminfo) commOf;//mapping关联数组
     
     uint[] lengths;
 
