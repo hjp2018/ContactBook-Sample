@@ -56,7 +56,7 @@ contract ContactBookDAPP is owned{
     }
 
     //保存
-    function saveinfo(string memory name ,string memory telephone,string memory email,uint8 gender) public{
+    function saveinfo(string memory name ,string memory telephone,string memory email,uint8 gender) public{//memory关键字代表保存在内存 不会上链
         uint les = lengths.length;
 
         commOf[les].name = name;
